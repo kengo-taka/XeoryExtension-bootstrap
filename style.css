@@ -1,0 +1,172 @@
+@charset='utf-8';
+
+.navbar {
+  background-color: #47B39D;
+}
+
+.top {
+  background-color: #42AF9A;
+  height: 400px;
+  padding-top: 120px;
+}
+
+.top h4 {
+  margin-bottom: 40px;
+}
+
+.f-container {
+  display: flex;
+}
+
+
+.card {
+  margin: 10px;
+
+}
+
+.bigbox {
+  position: relative;
+}
+
+.minibox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  background-color: burlywood;
+  padding-top: 8px;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+.orange {
+  background-color: #FF6C00;
+  width: 160px;
+}
+
+.green {
+  background-color: #48B49D;
+  border-radius: 7px;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btnbtn {
+  background-color: #47B39D;
+  width: 130px;
+}
+
+.number {
+  background-color: #47B39D;
+  width: 20px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.number p {
+  position: absolute;
+  top: 24px;
+  left: 5px;
+}
+
+.number1 {
+  background-color: #47B39D;
+  width: 20px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.number1 p {
+  position: absolute;
+  top: 24px;
+  left: 5px;
+}
+.darkwhite {
+  background-color: #FAFAFA;
+}
+
+.container-face {
+  background-color: #031630;
+}
+
+.formform {
+  background-color: #47B39D;
+  padding: 100px 180px;
+}
+
+.jumbotron {
+  background-color: #3B4552;
+  text-align: center;
+  color: white;
+  height: 160px;
+  padding-top: 30px;
+  margin: 0px;
+}
+
+.feature {
+  color: #4BB59F;
+}
+.feature1 {
+  color: #4BB59F;
+}
+.footerfooter {
+  background-color: #010A16;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.serviecervice {
+  color: #47B39D;
+}
+
+li {
+  list-style: none;
+}
+
+.send {
+  background-color: #131D2A;
+  width: 200px;
+}
+
+@media screen and (max-width: 559px) {}
+
+@media screen and (max-width: 959px) {
+  .big {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .notbig {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    display: none;
+  }
+}
+
+
+
